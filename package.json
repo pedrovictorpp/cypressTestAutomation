@@ -1,26 +1,10 @@
 {
-  "name": "treinamento-nttdata-cypress-teste-api-gorest-v2",
+  "name": "TestesAPI-Cypress-Basico-Trello",
   "version": "1.0.0",
-  "description": "Treinamento para QAs - Automação de Testes de API utilizando Cypress - Básico V2",
+  "description": "Testes para a API do Trello com Cypress",
   "main": "index.js",
   "scripts": {
     "cy:run": "npx cypress run",
     "cy:open": "npx cypress open"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mrk-qa/treinamento-nttdata-cypress-teste-api-gorest-v2.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mrk-qa/treinamento-nttdata-cypress-teste-api-gorest-v2/issues"
-  },
-  "homepage": "https://github.com/mrk-qa/treinamento-nttdata-cypress-teste-api-gorest-v2#readme",
-  "devDependencies": {
-    "cypress": "^12.2.0",
-    "cypress-plugin-api": "^2.11.1",
-    "cypress-plugin-steps": "^1.1.1"
   }
 }
