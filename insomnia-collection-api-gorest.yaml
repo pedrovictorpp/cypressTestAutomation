@@ -1,0 +1,432 @@
+_type: export
+__export_format: 4
+__export_date: 2023-07-24T22:37:38.032Z
+__export_source: insomnia.desktop.app:v2023.2.2
+resources:
+  - _id: req_e6b89c6561c84d728015d346e81a8c4d
+    parentId: fld_1b5521ed5d744d6eb1f0d8b343bee1f9
+    modified: 1690238109053
+    created: 1687811429630
+    url: https://gorest.co.in/public/v2/users
+    name: get all users
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - id: pair_3103728aa2d34ab2bc251835f74abff9
+        name: Authorization
+        value: Bearer (token here)
+        description: ""
+    authentication: {}
+    metaSortKey: -1686359642222
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_1b5521ed5d744d6eb1f0d8b343bee1f9
+    parentId: wrk_4a1126669b804b5f8568c5fd56b8b760
+    modified: 1687811626780
+    created: 1687811392233
+    name: get
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1687811497421
+    _type: request_group
+  - _id: wrk_4a1126669b804b5f8568c5fd56b8b760
+    parentId: null
+    modified: 1690237990965
+    created: 1690237990965
+    name: Untitled
+    description: ""
+    scope: design
+    _type: workspace
+  - _id: req_a37970070e704f68b0a7c1d493b7bfa3
+    parentId: fld_1b5521ed5d744d6eb1f0d8b343bee1f9
+    modified: 1690238115045
+    created: 1687813794874
+    url: https://gorest.co.in/public/v2/users/3900250
+    name: get only users (id)
+    description: ""
+    method: GET
+    body: {}
+    parameters:
+      - id: pair_f8762786add2450eb843b2a18b51b543
+        name: ""
+        value: ""
+        description: ""
+        disabled: true
+    headers:
+      - id: pair_a20fe2d0efd441edbf3dd151e264c1d2
+        name: Authorization
+        value: Bearer (token here)
+        description: ""
+    authentication: {}
+    metaSortKey: -1686359642220.4375
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_6a992b74bb4a4fd29e99e67ac12880f3
+    parentId: fld_1b5521ed5d744d6eb1f0d8b343bee1f9
+    modified: 1690238119032
+    created: 1687811139141
+    url: https://gorest.co.in/public/v2/users
+    name: get only users (name)
+    description: ""
+    method: GET
+    body: {}
+    parameters:
+      - id: pair_f8762786add2450eb843b2a18b51b543
+        name: name
+        value: Bhooshan Gill
+        description: ""
+    headers:
+      - id: pair_a20fe2d0efd441edbf3dd151e264c1d2
+        name: Authorization
+        value: Bearer (token here)
+        description: ""
+    authentication: {}
+    metaSortKey: -1686359642218.875
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_08c52c39576f4f4ca93155788f0b49e4
+    parentId: fld_1b5521ed5d744d6eb1f0d8b343bee1f9
+    modified: 1690238123119
+    created: 1687811300801
+    url: https://gorest.co.in/public/v2/users
+    name: get only users (email)
+    description: ""
+    method: GET
+    body: {}
+    parameters:
+      - id: pair_f8762786add2450eb843b2a18b51b543
+        name: email
+        value: teste4@gmail.com
+        description: ""
+    headers:
+      - id: pair_a20fe2d0efd441edbf3dd151e264c1d2
+        name: Authorization
+        value: Bearer (token here)
+        description: ""
+    authentication: {}
+    metaSortKey: -1686359642212.625
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_03a6c27972c24fd584524bb8e707757b
+    parentId: fld_1b5521ed5d744d6eb1f0d8b343bee1f9
+    modified: 1690238126792
+    created: 1687811268069
+    url: https://gorest.co.in/public/v2/users
+    name: get only users (gender)
+    description: ""
+    method: GET
+    body: {}
+    parameters:
+      - id: pair_f8762786add2450eb843b2a18b51b543
+        name: gender
+        value: female
+        description: ""
+    headers:
+      - id: pair_a20fe2d0efd441edbf3dd151e264c1d2
+        name: Authorization
+        value: Bearer (token here)
+        description: ""
+    authentication: {}
+    metaSortKey: -1686359642206.375
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_f41ed8674a964bc98a13a0e523c24256
+    parentId: fld_1b5521ed5d744d6eb1f0d8b343bee1f9
+    modified: 1690238130306
+    created: 1687811354660
+    url: https://gorest.co.in/public/v2/users
+    name: get only users (status)
+    description: ""
+    method: GET
+    body: {}
+    parameters:
+      - id: pair_f8762786add2450eb843b2a18b51b543
+        name: status
+        value: inactive
+        description: ""
+    headers:
+      - id: pair_a20fe2d0efd441edbf3dd151e264c1d2
+        name: Authorization
+        value: Bearer (token here)
+        description: ""
+        disabled: false
+    authentication: {}
+    metaSortKey: -1686359642153.25
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_6e6d800c677f476996c570088df89d35
+    parentId: fld_1b5521ed5d744d6eb1f0d8b343bee1f9
+    modified: 1690238135192
+    created: 1687811498699
+    url: https://gorest.co.in/public/v2/comments
+    name: get all comments
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - id: pair_a20fe2d0efd441edbf3dd151e264c1d2
+        name: Authorization
+        value: Bearer (token here)
+        description: ""
+    authentication: {}
+    metaSortKey: -1684182581371.125
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_11f26ab66f004da9b5ae73199b3d66c8
+    parentId: fld_1b5521ed5d744d6eb1f0d8b343bee1f9
+    modified: 1690238138487
+    created: 1687811530510
+    url: https://gorest.co.in/public/v2/posts
+    name: get all posts
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - id: pair_a20fe2d0efd441edbf3dd151e264c1d2
+        name: Authorization
+        value: Bearer (token here)
+        description: ""
+        disabled: false
+    authentication: {}
+    metaSortKey: -1683094050980.0625
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_2d58e2ed67a24b94a65fe1a2a15868ec
+    parentId: fld_1b5521ed5d744d6eb1f0d8b343bee1f9
+    modified: 1690238141906
+    created: 1687811557844
+    url: https://gorest.co.in/public/v2/todos
+    name: get all todos
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - id: pair_a20fe2d0efd441edbf3dd151e264c1d2
+        name: Authorization
+        value: Bearer (token here)
+        description: ""
+    authentication: {}
+    metaSortKey: -1682549785784.5312
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_7ef099afa88b4038a0888fa0ccc490f8
+    parentId: fld_ef46bcb1b7f9407fa73d661432c74b24
+    modified: 1690238159334
+    created: 1687811619392
+    url: https://gorest.co.in/public/v2/users
+    name: post create user
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"name": "Marco Polo",
+        	"gender": "male",
+        	"email": "teste1@gmail.com",
+        	"status": "active"
+        }
+    parameters: []
+    headers:
+      - id: pair_a20fe2d0efd441edbf3dd151e264c1d2
+        name: Authorization
+        value: Bearer (token here)
+        description: ""
+        disabled: false
+      - name: Content-Type
+        value: application/json
+        id: pair_6818789ba35b45af8c4a75f7ecea9519
+    authentication: {}
+    metaSortKey: -1682277653186.7656
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_ef46bcb1b7f9407fa73d661432c74b24
+    parentId: wrk_4a1126669b804b5f8568c5fd56b8b760
+    modified: 1687811628388
+    created: 1687811602608
+    name: post
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1687811497371
+    _type: request_group
+  - _id: req_149636b649fe43cfa20697590ef1cb21
+    parentId: fld_0903d68f449749489c5f91700933570c
+    modified: 1690238162082
+    created: 1687811906576
+    url: https://gorest.co.in/public/v2/users/3900250
+    name: delete user
+    description: ""
+    method: DELETE
+    body:
+      mimeType: application/json
+      text: ""
+    parameters: []
+    headers:
+      - id: pair_a20fe2d0efd441edbf3dd151e264c1d2
+        name: Authorization
+        value: Bearer (token here)
+        description: ""
+        disabled: false
+      - name: Content-Type
+        value: application/json
+        id: pair_4646acccfeed4a7c98684c9a89bce53b
+    authentication: {}
+    metaSortKey: -1682141586887.8828
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_0903d68f449749489c5f91700933570c
+    parentId: wrk_4a1126669b804b5f8568c5fd56b8b760
+    modified: 1687812595408
+    created: 1687811890893
+    name: delete
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1687811497358.5
+    _type: request_group
+  - _id: req_a29ebe85fe3f452bb6ac00098755cc69
+    parentId: fld_7b1a6f38fa9c4df9a268a8ef91d3df07
+    modified: 1690238167243
+    created: 1687812483815
+    url: https://gorest.co.in/public/v2/users/3738492
+    name: put user
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"name": "Marco Silva",
+        	"gender": "male",
+        	"email": "teste@gmail.com",
+        	"status": "active"
+        }
+    parameters: []
+    headers:
+      - id: pair_a20fe2d0efd441edbf3dd151e264c1d2
+        name: Authorization
+        value: Bearer (token here)
+        description: ""
+        disabled: false
+      - name: Content-Type
+        value: application/json
+        id: pair_bd5d95cddb604f5eaf4c83849e9be25c
+    authentication: {}
+    metaSortKey: -1682073553738.4414
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_7b1a6f38fa9c4df9a268a8ef91d3df07
+    parentId: wrk_4a1126669b804b5f8568c5fd56b8b760
+    modified: 1687812572286
+    created: 1687812475551
+    name: put
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1687811497346
+    _type: request_group
+  - _id: env_f0b0d1a8bf024b599d8396ff4ec78503
+    parentId: wrk_4a1126669b804b5f8568c5fd56b8b760
+    modified: 1687811010706
+    created: 1687811010706
+    name: Base Environment
+    data: {}
+    dataPropertyOrder: null
+    color: null
+    isPrivate: false
+    metaSortKey: 1687811010706
+    _type: environment
+  - _id: jar_3e96b097debe409c8985bc3c7d45266f
+    parentId: wrk_4a1126669b804b5f8568c5fd56b8b760
+    modified: 1687811010707
+    created: 1687811010707
+    name: Default Jar
+    cookies: []
+    _type: cookie_jar
+  - _id: spc_ec7a754d99c94d378b02ed633757cd30
+    parentId: wrk_4a1126669b804b5f8568c5fd56b8b760
+    modified: 1690238033761
+    created: 1690237990966
+    fileName: Treinamento Cypress NTT - API GOREST
+    contents: ""
+    contentType: yaml
+    _type: api_spec
